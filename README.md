@@ -19,7 +19,24 @@ A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code/skills) tha
 
 ## Installation
 
-Copy `SKILL.md` into your Claude Code skills directory, or add this project as a skill source in your Claude Code configuration.
+Claude Code skills live under your project's `.claude/skills/` directory. Each skill gets its own folder containing a `SKILL.md` file:
+
+```
+your-project/
+└── .claude/
+    └── skills/
+        └── clean-naming/
+            └── SKILL.md
+```
+
+To install, copy the `SKILL.md` file into your project:
+
+```bash
+mkdir -p .claude/skills/clean-naming
+cp SKILL.md .claude/skills/clean-naming/SKILL.md
+```
+
+Claude Code automatically discovers skills in this directory — no additional configuration needed.
 
 ## Compatibility
 
@@ -35,4 +52,4 @@ Good: IPatientRepository, InboundMapper, WorkflowOrchestrator, LabResultProcesso
 
 ## License
 
-Use it. Name things well. Make the next developer smile instead of squint.
+[MIT](LICENSE) — use it, name things well, make the next developer smile instead of squint.
