@@ -5,6 +5,8 @@
 
 This skill tackles the second one. You're on your own for cache invalidation.
 
+And yes — a repo called `.NET-C-Clean-Architecture-Skill` that's actually a Claude Code skill about naming things... named in a way that tells you nothing about Claude Code. We never said *we* were good at it.
+
 ## What Is This?
 
 A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code/skills) that enforces **Clean Architecture naming conventions** in .NET/C# codebases. It activates during code generation, refactoring, and review — even when you don't explicitly ask for naming help — because good naming is non-negotiable.
